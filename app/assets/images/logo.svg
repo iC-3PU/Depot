@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="logo-svg"
+   x="0px"
+   y="0px"
+   viewBox="0 8.5 275 108.5"
+   width="200"
+   preserveAspectRatio="xMinYMin meet"
+   xml:space="preserve"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs67"><rect
+     x="43.649492"
+     y="64.429233"
+     width="97.533397"
+     height="25.192918"
+     id="rect2517" /><rect
+     x="32.607757"
+     y="67.337684"
+     width="117.89978"
+     height="13.394934"
+     id="rect960" /></defs><sodipodi:namedview
+   id="namedview65"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="6.55"
+   inkscape:cx="84.656489"
+   inkscape:cy="51.679389"
+   inkscape:window-width="1848"
+   inkscape:window-height="1016"
+   inkscape:window-x="72"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="logo-svg" />
+
+  <style
+   type="text/css"
+   id="style2">
+   .logo_letters{fill:#282;}
+   .trapezoid {fill:#bfb;}
+  </style>
+
+  <g
+   id="Trapezoid"
+   transform="translate(0.02087196,8.4292763)">
+    <polygon
+   class="trapezoid"
+   points="247,108.5 24,108.5 0,0 275,0 "
+   id="polygon4" />
+  </g>
+
+  
+  
+  
+<text
+   xml:space="preserve"
+   transform="matrix(1.375,0,0,1.375,24.206963,-2.4291251)"
+   id="text2515"
+   style="white-space:pre;shape-inside:url(#rect2517);fill:#000000;fill-opacity:1;-inkscape-font-specification:'sans-serif Bold Italic';font-family:sans-serif;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal;font-size:24px"><tspan
+     x="43.650391"
+     y="110.85742"
+     id="tspan2762"><tspan
+       dx="0 19.921875 16.277344 17.179688 16.488281"
+       id="tspan2760">Depot</tspan></tspan></text><text
+   xml:space="preserve"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.2522px;font-family:aakar;-inkscape-font-specification:'aakar Bold Italic';fill:#008000;fill-opacity:1;stroke-width:1.76051"
+   x="68.407547"
+   y="80.175201"
+   id="text2678"
+   transform="scale(1.1326576,0.88287936)"><tspan
+     sodipodi:role="line"
+     id="tspan2676"
+     style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:aakar;-inkscape-font-specification:'aakar Bold Italic';fill:#008000;stroke-width:1.76051"
+     x="68.407547"
+     y="80.175201">Depot</tspan></text></svg>
