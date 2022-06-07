@@ -67,4 +67,9 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:title, :description, :image_url, :price)
     end
+
+  def time 
+    @time1 = Time.now
+  end
+  
 end
