@@ -43,3 +43,27 @@ forming the message you display.
 
 • Change the template to display the counter only if the count is greater
 than five.
+
+TO DO: Playtime (Task-E)
+Here’s some stuff to try on your own:
+
+• Create a migration that copies the product price into the line item, and
+change the add_product() method in the Cart model to capture the price
+whenever a new line item is created.
+
+• Write unit tests that add both unique products and duplicate products
+to a cart. Assert how many products should be in the cart in each instance.
+Note that you’ll need to modify the fixture to refer to products and carts
+by name—for example, product: ruby .
+
+• Check products and line items for other places where a user-friendly error
+message would be in order.
+
+• Add the ability to delete individual line items from the cart. This will
+require buttons on each line, and such buttons will need to be linked to
+the destroy() action in the LineItemsController .
+
+• We prevented accessing other user’s carts in the LineItemsController , but you
+can still see other carts by navigating directly to a URL like http://local-
+host/carts/3 . See if you can prevent accessing any cart other than than one
+currently stored in the session.
