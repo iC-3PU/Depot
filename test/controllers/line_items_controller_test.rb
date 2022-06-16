@@ -49,6 +49,22 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to line_items_url
   end
 
+  test "should add unique items to cart" do
+    post line_items_url, params: { product_id: products(:ruby).id }
+    post line_items_url, params: { product_id: products(:one).id }
+    @cart = Cart.find(session[:cart_id])
+
+    assert @cart.line_items.count == 2
+  end
+
+  test "should combine duplicate items when added to cart" do
+    post line_items_url, params: { product_id: products(:ruby).id }
+    post line_items_url, params: { product_id: products(:ruby).id }
+    @cart = Cart.find(session[:cart_id])
+
+    assert @cart.line_items.count == 1
+  end
+
   test "should create line_item via ajax" do
     assert_difference('LineItem.count') do
       post line_items_url, params: { product_id: products(:ruby).id },
