@@ -45,11 +45,7 @@ forming the message you display.
 than five.
 
 TO DO: Playtime (Task-E)
-Here’s some stuff to try on your own:
-
-• Create a migration that copies the product price into the line item, and
-change the add_product() method in the Cart model to capture the price
-whenever a new line item is created.
+Here’s some stuff to try on your own: 
 
 • Write unit tests that add both unique products and duplicate products
 to a cart. Assert how many products should be in the cart in each instance.
@@ -67,3 +63,5 @@ the destroy() action in the LineItemsController .
 can still see other carts by navigating directly to a URL like http://local-
 host/carts/3 . See if you can prevent accessing any cart other than than one
 currently stored in the session.
+
+TO DO: Task-H Playtime.
