@@ -65,3 +65,6 @@ host/carts/3 . See if you can prevent accessing any cart other than than one
 currently stored in the session.
 
 TO DO: Task-H Playtime.
+
+TO DO: Task-I Playtime, maybe authentification? even though it said not to really do this.
+
