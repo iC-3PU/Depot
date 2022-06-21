@@ -15,6 +15,10 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # Enable/disable caching. By default caching is disabled.
+  #disable email delivery in development mode
+  Depot::Application.configure do
+    config.action_mailer.delivery_method = :smtp
+  end
   # Run rails dev:cache to toggle caching.
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
     config.action_controller.perform_caching = true
